@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Веб Студия</title>
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <div class="nav-menu-flex-main">
+        <nav class="nav-menu">
+          <p class="logo"><span class="logo-web">Web</span> Studio</p>
+          <ul class="nav-menu-flex">
+            <li class="nav-menu-item">
+              <a class="nav-menu-link nav-menu-link-height" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link-height" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link-height" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="adress-link">
+          <ul class="nav-menu-adress">
+            <li class="nav-menu-adress-item">
+              <a
+                class="nav-menu-link nav-menu-link-height"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="nav-menu-adress-item">
+              <a class="nav-menu-link-height" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <!-- Блок героя -->
+    <section class="hero-section">
+      <div class="conteiner-hero-section">
+        <h1 class="hero-tittle">
+          эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <a class="hero-button" href="">Заказать услугу</a>
+      </div>
+    </section>
+
+    <!-- наши компетенции -->
+    <section>
+      <div class="conteiner-future-section">
+        <!-- <h2>наши компетенции</h2> -->
+        <ul class="list-item-feature list-item-future-flex">
+          <li class="list-item-future-block">
+            <div class="future-image-border">
+              <img
+                class="future-image-item"
+                src="./images/antenna_1.png"
+                alt="антенна"
+              />
+            </div>
+
+            <h3>Внимание к деталям</h3>
+            <p class="text-title">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="list-item-future-block">
+            <div class="future-image-border">
+              <img
+                class="future-image-item"
+                src="./images/clock_1.png"
+                alt="часы"
+              />
+            </div>
+
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="list-item-future-block">
+            <div class="future-image-border">
+              <img
+                class="future-image-item"
+                src="./images/diagram_1.png"
+                alt="диаграмма"
+              />
+            </div>
+
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="list-item-future-block">
+            <div class="future-image-border">
+              <img
+                class="future-image-item"
+                src="./images/astronaut_1.png"
+                alt="астронавт"
+              />
+            </div>
+
+            <h3>Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Чем мы занимаемся -->
+    <section>
+      <div class="conteiner-competencies">
+        <h2 class="section-tittle">Чем мы занимаемся</h2>
+        <ul class="section-whatdoing-subtittle">
+          <!-- наверно лучше обернуть в div картинку и заголовок и дать им класс -->
+          <li class="section-whatdoing-item">
+            <img src="./images/desktop_app.jpg" alt="" />
+            <h3>Десктопные приложения</h3>
+          </li>
+          <li class="section-whatdoing-item">
+            <img src="./images/teleophone-mobile.jpg" alt="мобильный телефон" />
+            <h3>Мобильные приложения</h3>
+          </li>
+          <li class="section-whatdoing-item">
+            <img src="./images/disign_dicision.jpg" alt="" />
+            <h3>Дизайнерские решения</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Наша команда -->
+    <section class="section-ourcomands-colour">
+      <div class="conteiner-ourcommands">
+        <h2 class="section-tittle">Наша команда</h2>
+        <ul class="section-comand-list">
+          <li class="section-comand-item">
+            <img src="./images/Smith.svg" alt="" />
+            <h3>Николай Кучеренко</h3>
+            <p>Product Designer</p>
+            <ul class="section-comand-social-link-list">
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="section-comand-item">
+            <img src="./images/Marta.svg" alt="" />
+            <h3>Ольга Иванова</h3>
+            <p>Frontend Developer</p>
+            <ul class="section-comand-social-link-list">
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="section-comand-item">
+            <img src="./images/Robert.svg" alt="" />
+            <h3>Андрей Шевченко</h3>
+            <p>Marketing</p>
+            <ul class="section-comand-social-link-list">
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="section-comand-item">
+            <img src="./images/Martin.svg" alt="" />
+            <h3>Иван Николаев</h3>
+            <p>UI Designer</p>
+            <ul class="section-comand-social-link-list">
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+              <li class="section-comand-social-link-item">
+                <a href="">
+                  <div class="ourcommand-social-link-button">
+                    <p>Ins</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Постоянные клиенты -->
+    <section>
+      <div class="conteiner-ourclient">
+        <h2 class="section-tittle">Постоянные клиенты</h2>
+        <ul class="ourlient-list">
+          <li class="ourclients-flex-item">
+            <img
+              class="ourclients-flex-item-img"
+              src="./images/our_clients/Client1.png"
+              alt="logo1"
+            />
+          </li>
+          <li class="ourclients-flex-item">
+            <img
+              class="ourclients-flex-item-img"
+              src="./images/our_clients/Client2.png"
+              alt="logo2"
+            />
+          </li>
+          <li class="ourclients-flex-item">
+            <img
+              class="ourclients-flex-item-img"
+              src="./images/our_clients/Client3.png"
+              alt="logo3"
+            />
+          </li>
+          <li class="ourclients-flex-item">
+            <img
+              class="ourclients-flex-item-img"
+              src="./images/our_clients/Client4.png"
+              alt="logo4"
+            />
+          </li>
+          <li class="ourclients-flex-item">
+            <img
+              class="ourclients-flex-item-img"
+              src="./images/our_clients/Client5.png"
+              alt="logo5"
+            />
+          </li>
+          <li class="ourclients-flex-item">
+            <img
+              class="ourclients-flex-item-img"
+              src="./images/our_clients/Client6.png"
+              alt="logo6"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="conteiner-footer">
+        <div class="footer-logo-adress">
+          <p class="logo-footer"><span class="logo-web">Web</span> Studio</p>
+
+          <address class="footer-adress">
+            <ul>
+              <li>
+                <p>г. Киев, пр-т Леси Украинки, 26</p>
+              </li>
+              <li>
+                <a class="link-footer" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="link-footer" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="footer-tittle">присоединяйтесь</p>
+          <ul class="footer-social-link">
+            <li class="footer-social-link-item">
+              <a href="">
+                <div class="social-link-button">
+                  <p>In</p>
+                </div>
+              </a>
+            </li>
+            <li class="footer-social-link-item">
+              <a href="">
+                <div class="social-link-button">
+                  <p>In</p>
+                </div>
+              </a>
+            </li>
+            <li class="footer-social-link-item">
+              <a href="">
+                <div class="social-link-button">
+                  <p>In</p>
+                </div>
+              </a>
+            </li>
+            <li class="footer-social-link-item">
+              <a href="">
+                <div class="social-link-button">
+                  <p>In</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-tittle">Подпишитесь на рассылку</p>
+          <form action=""></form>
+          <button class="footer-button-subscribe">Подписаться</button>
+        </div>
+
+        <!-- <div class="footer-link-group">
+          <div>
+            <p class="footer-tittle">присоединяйтесь</p>
+            <ul class="footer-social-link">
+              <li><a href="">In</a></li>
+              <li><a href="">Tw</a></li>
+              <li><a href="">F</a></li>
+              <li><a href="">LIn</a></li>
+            </ul>
+          </div> -->
+
+        <!-- Поле форма убрал пока не делаем -->
+        <!-- <div>
+            <p class="footer-tittle">Подпишитесь на рассылку</p>
+            <form action=""></form>
+            <button>Подписаться</button>
+          </div> -->
+        <!-- </div> -->
+      </div>
+      <div>
+        <p class="footer-copyright">2020 | Developed by GoIT Students</p>
+      </div>
+    </footer>
+  </body>
+</html>
