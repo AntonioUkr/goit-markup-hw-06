@@ -476,6 +476,7 @@ footer {
   color: #ffffff;
   border: 0px;
   border-radius: 4px;
+  margin-left: 12px;
 }
 
 .footer-tittle {
@@ -485,6 +486,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-tittle-background);
+  margin-bottom: 20px;
 }
 .footer-copyright {
   font-weight: normal;
@@ -498,6 +500,26 @@ footer {
   color: rgba(255, 255, 255, 0.4);
 }
 
+/* футер форма подпишись */
+.footer-subscribe {
+  width: 570px;
+}
+.form-subscribe {
+  display: flex;
+}
+.input-subscribe {
+  padding: 15px 16px;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: inherit;
+  width: 355px;
+}
 /* стили portfolio main */
 
 /* сделал через li и потом a потому что если только через ли то по центру 
