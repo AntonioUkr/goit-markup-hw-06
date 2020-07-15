@@ -16,17 +16,16 @@
         
 
         <div class="form-field">
-            <label for="">Имя
-                
+            <label class="form-lable" for="">Имя              
             </label>
-            <input type="text" />
+            <input class="form-input form-active" type="text" />
         
         </div>
 
         <div class="form-field">
             <label for="tel">Телефон           
             </label>
-            <input name="tel" type="text" />
+            <input class="form-input form-active" name="tel" type="text" />
         
         </div>
 
@@ -34,17 +33,25 @@
             <label for="">Почта
                 
             </label>
-            <input type="text" />
+            <input class="form-input form-active" type="text" />
         
         </div>
 
         <div class="form-field">
-            <label for="">Комментарий
-                
+            <label for="comments">Комментарий                
             </label>
-            <input type="text" />
+            <textarea class="input-comments form-active" name="comments"></textarea>
         
         </div>
+
+        <div>
+          <input type="checkbox" name="agreement">
+          <label for="agreement">Соглашаюсь с рассылкой и принимаю 
+           <a href="">Условия договора</a></label>
+          
+        </div>
+
+        <button class="modal-button" type="submit">Отправить</button>
 
         
 
